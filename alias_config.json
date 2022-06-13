@@ -1,0 +1,4 @@
+{
+    "C/C++ Style":[".c", ".cpp", ".C", ".h", ".cxx", ".cc", ".c++", ".java", ".js"],
+    "python Script Style":[".py", ".sh"]
+}
