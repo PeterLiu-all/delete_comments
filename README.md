@@ -41,30 +41,6 @@ python delete_all_comments.py clean [要删除的目录]
 python delete_all_comments.py all [要删除的目录]
 ```
 
-英文版帮助：(建议通过 python delete_all_comments.py help 获取)
-
-
-Please input filename needed to delete comments
-for example,
-python delete_all_comments.py ./file/test.cpp
-
-This program uses two configure file whose name is defaultly set as:
-alias_config.json\t\text_config.json
--alias_config.json
-define the extension's alias, which reduce writting same rules for different file extensions.
--ext_config.json
-define the comment rules of certain file extensions
-
-The program has the delete rule of files with extension of .cpp,.c,.java,.py util now
-if provided file's extension is not in collection,
-the program will automatically enter rule input mod,
-then you can set rules by giving start symbol and end symbol of the comment
-
-There's also two practical option:
-To remove all backup comments file in chosen directory:
-python delete_all_comments.py clean [directory]
-To delete all files' comments of chosen directory:
-python delete_all_comments.py all [directory]
-Written By Peter Liu on 2022.6.13
+英文版帮助：(通过 python delete_all_comments.py help 获取)
 
 如果发现了什么 Bug，可以致信peterliuforever@gmail.com
