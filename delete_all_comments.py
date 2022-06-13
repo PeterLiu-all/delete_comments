@@ -6,7 +6,7 @@ import colorama
 import json
 from pprint import pprint
 
-# 跑路必备，删除所有注释python小脚本
+# 删除所有注释python小脚本
 
 class DeleteComments:
     def __init__(self) -> None:
