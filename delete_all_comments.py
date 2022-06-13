@@ -20,7 +20,7 @@ class DeleteComments:
         self.ext_config_file = ""
         self.alias_config_file = ""
         self.re_module = [["([   ])*(", ".*", "(\n)*)+"],
-                          ["([   ])*(/\*[\s\S]*\*/(\n)*)+"]]
+                          ["([   ])*(","[\s\S]*","(\n)*)+"]]
         self.known_ext = {
             # ".c": ["([   ])*(//.*(\n)*)+", "([   ])*(/\*[\s\S]*\*/(\n)*)+"],
             # ".cpp": ["([   ])*(//.*(\n)*)+", "([   ])*(/\*[\s\S]*\*/(\n)*)+"],
