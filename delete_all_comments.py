@@ -84,7 +84,7 @@ class DeleteComments:
                 # 输入注释的开始和结束，比如//的开始和结束分别是“//”和“\n”
                 start = input("please input start:")
                 end = input("please input end:(\\n for line break)")
-                end = "\n" if end == "\\n" else end
+                end = "" if end == "\\n" else end
                 self.pattern.append(
                     self.re_module[mod][0]+start +
                     self.re_module[mod][1]+end +
